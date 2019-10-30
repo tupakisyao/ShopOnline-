@@ -14,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\Documents\GitHub\ShopOnline-\ShopOnline\ShopOnline" />
       <recent name="C:\Users\Пользователь\Documents\GitHub\ShopOnline-\ShopOnline\shop\static" />
       <recent name="C:\Users\Пользователь\Documents\GitHub\ShopOnline-\ShopOnline\shop\static\css" />
     </key>
@@ -90,7 +91,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572413105977</updated>
-      <workItem from="1572413124745" duration="4089000" />
+      <workItem from="1572413124745" duration="4497000" />
+      <workItem from="1572451568611" duration="920000" />
+      <workItem from="1572452508120" duration="3018000" />
+      <workItem from="1572455543453" duration="1501000" />
     </task>
     <servers />
   </component>
@@ -102,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -2,12 +2,14 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
-from django.urls import path
+
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^example', include('shop.urls', namespace='shop')),
+    url(r'^', include('shop.urls', namespace='shop')),
+    url(r'^cart/', include('cart.urls', namespace='cart')),
+
 
 ]
 

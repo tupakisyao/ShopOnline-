@@ -24,3 +24,9 @@
     </div>
   </div>
 {% endblock %}
+<p class="price">{{ product.price }} руб.</p>
+<form action="{% url "cart:CartAdd" product.id %}" method="post">
+    {{ cart_product_form }}
+    {% csrf_token %}
+    <input type="submit" value="Добавить в корзину">
+</form>
