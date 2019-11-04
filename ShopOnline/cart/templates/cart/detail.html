@@ -28,14 +28,14 @@
             <td>{{ item.quantity }}</td>
             <td><a href="{% url "cart:CartRemove" product.id %}">Удалить</a></td>
             <td class="num">{{ item.price }} руб.</td>
-            <td class="num">{{ item.total_price }} руб.</td>
+            <td class="num">{{ item.total_price }} $.</td>
           </tr>
         {% endwith %}
       {% endfor %}
         <tr class="total">
           <td>Total</td>
           <td colspan="4"></td>
-          <td class="num">{{ cart.get_total_price }} руб.</td>
+          <td class="num">{{ cart.get_total_price }} $.</td>
         </tr>
     </tbody>
   </table>
