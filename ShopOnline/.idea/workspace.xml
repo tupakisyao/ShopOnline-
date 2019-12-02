@@ -29,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -42,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hello" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/python.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,7 +50,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,7 +71,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.pdf.html">
+    <configuration name="pdf.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ShopOnline/orders/templates/orders/order/pdf.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ShopOnline" type="Python.DjangoServer" factoryName="Django server">
       <module name="ShopOnline" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +99,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.pdf.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,8 +127,39 @@
       <workItem from="1572857128518" duration="166000" />
       <workItem from="1572857405860" duration="99000" />
       <workItem from="1573401048801" duration="2830000" />
-      <workItem from="1573450369491" duration="1862000" />
-      <workItem from="1573457050126" duration="2713000" />
+      <workItem from="1573404327589" duration="595000" />
+      <workItem from="1573456251644" duration="1802000" />
+      <workItem from="1573459759723" duration="3367000" />
+      <workItem from="1573917421988" duration="310000" />
+      <workItem from="1574061455156" duration="297000" />
+      <workItem from="1574061754884" duration="4185000" />
+      <workItem from="1574066021842" duration="359000" />
+      <workItem from="1574066421448" duration="66000" />
+      <workItem from="1574066519182" duration="1108000" />
+      <workItem from="1574158155734" duration="334000" />
+      <workItem from="1574576000380" duration="144000" />
+      <workItem from="1574576379908" duration="3988000" />
+      <workItem from="1574602356451" duration="2943000" />
+      <workItem from="1574615170151" duration="145000" />
+      <workItem from="1574657285521" duration="717000" />
+      <workItem from="1574659154143" duration="604000" />
+      <workItem from="1574670451075" duration="1929000" />
+      <workItem from="1575037662878" duration="1267000" />
+      <workItem from="1575174326946" duration="10766000" />
+      <workItem from="1575194002036" duration="6983000" />
+      <workItem from="1575204692614" duration="756000" />
+      <workItem from="1575205912526" duration="653000" />
+      <workItem from="1575206578705" duration="203000" />
+      <workItem from="1575206802574" duration="614000" />
+      <workItem from="1575207433058" duration="844000" />
+      <workItem from="1575208740605" duration="92000" />
+      <workItem from="1575208845663" duration="1488000" />
+      <workItem from="1575210350574" duration="782000" />
+      <workItem from="1575211149915" duration="70000" />
+      <workItem from="1575211232688" duration="72000" />
+      <workItem from="1575211319328" duration="2874000" />
+      <workItem from="1575215055559" duration="529000" />
+      <workItem from="1575215604711" duration="15119000" />
     </task>
     <servers />
   </component>
@@ -139,5 +178,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/shop/templates/shop/base.html</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

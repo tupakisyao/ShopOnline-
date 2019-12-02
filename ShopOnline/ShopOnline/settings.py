@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shop',
     'cart',
+    'orders',
+    'paypal.standard.ipn',
+    'payment'
 
 
 ]
@@ -126,3 +129,17 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CART_SESSION_ID = 'cart'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
+# Email
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT= 587
+EMAIL_HOST_USER='doszhan241@gmail.com'
+EMAIL_HOST_PASSWORD='cpuesonyxmsfcznd'
+EMAIL_USE_TLS=True
+
+#Paypal
+
+PAYPAL_RECEIVER_EMAIL='doszhan241@gmaail.com'
+PAYPAL_TEST= True

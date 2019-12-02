@@ -1,0 +1,28 @@
+<html>
+  <body>
+    <h1>SHOPONLINE</h1>
+    <p>
+      ID of your order: <b>{{ order_id }}</b> <br>
+      <span class="secondary">
+        {{ order_created }}
+      </span>
+    </p>
+    <h3>Customer</h3>
+    <p>
+      {{ order_first_name }} {{ order_last_name }}<br>
+      {{ order_email }} <br>
+      {{ order_address }} <br>
+      {{ order_postal_code }} {{ order_city }}
+    </p>
+
+        <tr class="total">
+          <td colspan="3">Total:</td>
+          <td class="num">{{ order_get_total_cost }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <span class="{% if order.paid %}paid{% else %}pending{% endif %}">
+      {% if order.paid %}Paid{% else %}Awaiting payment{% endif %}
+    </span>
+  </body>
+</html>
