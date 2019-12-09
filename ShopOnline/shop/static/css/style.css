@@ -12,7 +12,7 @@ body{
   text-transform: uppercase;
 }
 .top-bl{
-  background: orange;
+  background: #ff872b;
   padding: 10px;
 }
 .top-bl .cart{
@@ -114,5 +114,8 @@ thead{
   border-radius: 10px;
 }
 .backgr{
+  background: url("/media/backoboi.png");
+  width: 1200px;
+  height: 3600px;
 
 }
