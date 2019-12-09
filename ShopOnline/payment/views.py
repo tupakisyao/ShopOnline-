@@ -1,12 +1,13 @@
+from django.core.mail import EmailMessage
 from django.shortcuts import render, get_object_or_404
-from .signals import PaymentNotification
+
 from django.conf import settings
 from django.urls import reverse
 from paypal.standard.forms import PayPalPaymentsForm
 from orders.models import Order
 from django.views.decorators.csrf import csrf_exempt
 
-# Create your views here.
+
 def PaymentProcess(request):
     order_id = request.session.get('order_id')
     order = get_object_or_404(Order, id=order_id)
@@ -33,7 +34,8 @@ def PaymentDone(request):
     order = get_object_or_404(Order, id=order_id)
     order.paid=True
     order.save()
-
+    send = EmailMessage('Dear {}'.format(order.first_name), 'Thank you for choosing us.We have accepted your order. ', 'doszhan241@gmail.com', [order.email])
+    send.send()
     return render(request, 'payment/done.html')
 
 @csrf_exempt
